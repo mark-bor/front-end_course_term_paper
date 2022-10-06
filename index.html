@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="styles/global.css">
+		<link rel="stylesheet" type="text/css" href="styles/navigation.css">
+		<link rel="stylesheet" type="text/css" href="styles/header.css">
+		<link rel="stylesheet" type="text/css" href="styles/about-us.css">
+		<link rel="stylesheet" type="text/css" href="styles/we-work-for-you.css">
+		<link rel="stylesheet" type="text/css" href="styles/catalog.css">
+		<link rel="stylesheet" type="text/css" href="styles/feedback.css">
+		<link rel="stylesheet" type="text/css" href="styles/delivery-and-pay.css">
+		<link rel="stylesheet" type="text/css" href="styles/footer.css">
+		
+		<script defer type="module" src="script/catalog.js"></script>
+		<script defer type="module" src="script/feedbacks.js"></script>
+		<script defer src="script/menu-burger.js"></script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+		
+		<title>Flower Design</title>
+	</head>
+	<body>
+
+		<!--________________ NAVIGATION ________________-->
+		<nav class="nav">
+			<div class="menu_burger">
+				<button id="menu_burger" class="link">
+					<div class="burger"></div>
+				</button>
+			</div>
+
+			<img class="logo_in_nav" src="images/logo.png" alt="logo">
+			<ul class="ul_in_nav">
+				<li><a href="#catalog_section">Каталог</a></li>
+				<li><a href="#about_us">Про нас</a></li>
+				<li><a href="#">Збери букет</a></li>
+				<li><a href="#footer">Контакти</a></li>
+			</ul>
+			<div class="lupa_basket">
+				<img class="lupa" src="images/lupa.png" alt="dandruff">
+				<img class="basket" src="images/basket.png" alt="basket">
+			</div>
+			
+			<ul id="menu_window" class="menu_window">
+				<li class="punct_in_menu_window"><a href="#catalog_section">Каталог</a></li>
+				<li class="punct_in_menu_window"><a href="#about_us">Про нас</a></li>
+				<li class="punct_in_menu_window"><a href="#">Збери букет</a></li>
+				<li class="punct_in_menu_window"><a href="#footer">Контакти</a></li>
+			</ul>
+		</nav>
+
+		<!--________________ HEADER ________________-->
+		<header class="header">
+			<div class="div_header">
+				<section class="text_in_header">
+					<h1>Букет із кущових троянд “Довгоочікуване щастя”</h1>
+					<h2>Ніжний та витончений шик у букеті з троянд - гарний вибір для коханої людини</h2>
+				</section>
+				<nav class="nav_in_header">
+					<button class="basket_button">В кошик</button>
+					<a class="katalog_button" href="#catalog_section">Каталог</a>
+				</nav>
+			</div>
+		</header>
+
+		<!--________________ MEIN ________________-->
+		<main>
+
+			<!--________________ ABOUT US ________________-->
+			<section id="about_us" class="about_us">
+				<div class="div_about_us">
+					<nav class="nav_in_aboutAs">
+						<ul>
+							<li class="bouquets">
+								<button class="button_in_nav_in_aboutAs">Букети</button>
+							</li>
+							<li class="fresh_flowers">
+								<button class="button_in_nav_in_aboutAs">Живі квіти</button>
+							</li>
+							<li class="your_bouquet">
+								<button class="button_in_nav_in_aboutAs">"Свій" букет</button>
+							</li>
+						</ul>
+					</nav>
+					<section class="text_in_aboutAs">
+						<h2>Про нас</h2>
+						<div>
+							<p>Яких квітів тут лише немає! І садові, і польові, і кімнатні у глиняних горщиках. Очі розбігаються від такого достатку.<br>
+							<br>Тут представлена і багата колекція кімнатних рослин: кактуси різної форми та величини, ніжні фіалки, усипані квітами, аспарагуси, фікуси.</p>
+							<img src="styles/img/women.png" alt="team" width="300">
+						</div>
+					</section>
+				</div>
+				<div class="img_in_aboutAs">
+					<img src="images/inst.png" alt="instagram">
+					<img src="images/fb.png" alt="facebook">
+					<img src="images/viber.png" alt="viber">
+				</div>
+				<img src="styles/img/abstract_background.png" alt="background image" width="350">
+			</section>
+
+			<!--________________ WE WORK FOR YOU ________________-->
+			<section class="section_we_work_for_you">
+				<div class="div_we_work_for_you">
+					<h2>Працюємо для вас</h2>
+					<ul class="line_wwfy">
+						<li>
+							<figure class="block_in_line_wwfy">
+								<img src="images/constructor.png" alt="constructor" height="55">
+								<figcaption>Конструктрор унікального букета</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure class="block_in_line_wwfy">
+								<img src="images/delivery.png" alt="delivery" height="55">
+								<figcaption>Безкоштовна доставка по місту до 2-х годин</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure class="block_in_line_wwfy">
+								<img src="images/indoor.png" alt="indoor" height="55">
+								<figcaption>Наявність кімнатних рослин</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure class="block_in_line_wwfy">
+								<img src="images/for_loved_ones.png" alt="for_loved_ones" height="55">
+								<figcaption>Вибір квітів для коханих, мам та друзів</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<!--________________ CALALOG ________________-->
+			<section id="catalog_section" class="catalog">
+				<!-- <div class="block_gradient_1"></div> -->
+				<div class="div_catalog">
+					<h2>Каталог</h2>
+					
+					<ul id="catalog" class="section_commodity_cards" style="transform: translateX(0);">
+
+						<!-- <li class="commodity_card">
+							<img src="https://i.ibb.co/qk3WZzd/bouquet-cart1.png" height="55px">
+
+							<h4 class="commodity_name">Ніжна свіжість:</h4>
+							<h4 class="commodity_flowers">троянди та лілії</h4>
+							<h4 class="commodity_price">445 грн</h4>
+
+							<button class="btn_in_basket">В кошик</button>
+						</li> -->
+
+					</ul>
+
+					<div class="left_right">
+						<button class="left" id="left_catalog">
+							<div class="arrow_left"></div>
+						</button>
+
+						<ul id="buttons_ctlg" class="buttons">
+							<!-- <li><button class="checkbox ctlg active"></button></li> -->
+						</ul>
+
+						<button class="right" id="right_catalog">
+							<div class="arrow_right"></div>
+						</button>
+					</div>
+				</div>
+				<!-- <div class="block_gradient_2"></div> -->
+				<img src="images/flowers_1.png" alt="flowers">
+			</section>
+
+			<!--________________ FEEDBACK ________________-->
+			<section class="feedbacks">
+				<img src="images/flowers_2.png" alt="flowers">
+				<div class="div_feedbacks">
+					<h2>Відгуки</h2>
+					<ul id="feedbacks" style="transform: translateX(0);">
+						<!-- <li class="feedback">
+							<img src="images/reviews-photo2.png" alt="person" width="100" height="100">
+							<div class="text_in_feedback">
+								<p>“Сам не фахівець з квітів, але дружині дуже сподобався оригінальний весняний букет, зібраний із позитивним настроєм. Залишаю свій позитивний відгук магазину на вул. Добровольчих батальонів.”</p>
+								<h6>Володимир  19.06.22</h6>
+							</div>
+						</li> -->
+					</ul>
+					<div class="left_right">
+						<button id="left_feedback" class="left">
+							<div class="arrow_left"></div>
+						</button>
+
+						<ul id="buttons_fdbck" class="buttons">
+							<!-- <li><button></button></li> -->
+						</ul>
+
+						<button id="right_feedback" class="right">
+							<div class="arrow_right"></div>
+						</button>
+					</div>
+					<h2 class="add_feedback">Додати відгук:</h2>
+					<form>
+						<input id="name_for_feedback" class="name_in_form" type="text" name="your name" placeholder="Ваше ім’я" required>
+						<input id="text_for_feedback" class="feedback_in_form" type="text" name="your feedback" placeholder="Ваш відгук:" required>
+					</form>
+					<button id="send_feedback" class="send_form">Відправити</button>
+				</div>
+			</section>
+
+			<!--________________ DELIIVERY AND PAY ________________-->
+			<section class="delivery_and_pay">
+				<div class="div_delivery_and_pay">
+					<h2>Доставка і оплата</h2>
+					<ul class="options">
+						<li class="option">
+							<h3 class="number">1</h3>
+							<p class="">Ви замовляєте букет через<br>каталог</p>
+						</li>
+
+						<li class="option">
+							<h3 class="number">2</h3>
+							<p class="">Ви оплачуєте товар через<br> картку VISA або MC, або <br>Приват24</p>
+						</li>
+
+						<li class="option">
+							<h3 class="number">3</h3>
+							<p class="">Вам передзвонять наші<br>менеджери, якщо потрібно<br>щось уточнити</p>
+						</li>
+
+						<li class="option">
+							<h3 class="number">4</h3>
+							<p class="">Надсилаємо фото зібраного<br>букета, щоб узгодити<br>все</p>
+						</li>
+
+						<li class="option">
+							<h3 class="number">5</h3>
+							<p class="">Доставляємо букет<br>одержувачу протягом 2-х <br>годин</p>
+						</li>
+
+						<li class="option">
+							<h3 class="number">6</h3>
+							<p class="">Сповістимо Вас дзвінком або<br>повідомленням про доставку<br>букета</p>
+						</li>
+					</ul>
+				</div>
+
+			</section>
+		</main>
+
+		<!--________________ FOOTER -->
+		<footer id="footer" class="footer">
+
+			<section class="section_footer">
+				<img src="images/logo.png" alt="logo" height="55">
+
+				<ul class="nav_in_footer">
+					<li class="contacts">
+						<h2>Контакти</h2>
+						<ul>
+							<li><a href="tel:+380950000000">(095) 000 00 00</a></li>
+							<li><a href="tel:+380970000000">(097) 000 00 00</a></li>
+							<li>Ми працюємо цілодобово</li>
+						</ul>
+					</li>
+					<li class="information">
+						<h2>Інформація</h2>
+						<ul>
+							<li>Про нас</li>
+							<li>Хіт продажу</li>
+							<li>Відгуки</li>
+							<li>Доставка і оплата</li>
+						</ul>
+					</li>
+					<li class="catalog_in_footer">
+						<h2>Каталог</h2>
+						<ul>
+							<li>Збери свій букет</li>
+							<li>Живі квіти</li>
+							<li>Кімнатні рослини</li>
+						</ul>
+					</li>
+					<li class="follow_contacts">
+						<form class="form_follow">
+							<input type="email" name="mail" placeholder="Введіть свій e-mail">
+							<button>Підписатися</button>
+						</form>
+	
+						<ul class="contacts_in_f_c">
+							<li><img src="images/inst.png" alt="instagram"></li>
+							<li><img src="images/fb.png" alt="facebook"></li>
+							<li><img src="images/viber.png" alt="viber"></li>
+						</ul>
+	
+						<a>Copyright Ⓒ 2022</a>
+					</li>
+				</ul>
+			</section>
+
+			<section class="div_footer_mob">
+				<ul>
+					<li class="contacts">
+						<h2>Контакти</h2>
+						<ul>
+							<li><a href="tel:+380950000000">(095) 000 00 00</a></li>
+							<li><a href="tel:+380970000000">(097) 000 00 00</a></li>
+							<li>Ми працюємо<br>цілодобово</li>
+						</ul>
+					</li>
+
+					<li class="information">
+						<h2>Інформація</h2>
+						<ul>
+							<li>Про нас</li>
+							<li>Хіт продажу</li>
+							<li>Відгуки</li>
+							<li>Доставка і оплата</li>
+						</ul>
+					</li>
+
+					<li class="catalog_in_footer">
+						<h2>Каталог</h2>
+						<ul>
+							<li>Збери свій букет</li>
+							<li>Живі квіти</li>
+							<li>Кімнатні рослини</li>
+						</ul>
+					</li>
+				</ul>
+
+				<a class="company">Copyright Ⓒ 2022</a>
+				<img src="images/logo.png" alt="logo">
+			</section>
+
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,71 @@
+/*------------------------ WE WORK FOR YOU --------------------------------------------*/
+.section_we_work_for_you {
+    min-height: 156px;
+    padding: 0 35px;
+    background-color: rgba(169, 191, 228, 0.3);
+}
+
+.div_we_work_for_you {
+    max-width: 633px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 7px 0 5px 0;
+}
+
+.div_we_work_for_you > h2 {
+    width: 224px;
+    height: 28px;
+    margin: 0 0 13px 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+
+    color: #989EC3;
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.line_wwfy {
+    width: 100%;
+    min-height: 105px;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.line_wwfy > li {
+    display: block;
+    width: 140px;
+    height: 100%;
+}
+
+.block_in_line_wwfy {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.block_in_line_wwfy > figcaption {
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    /*------------------------ WE WORK FOR YOU --------------------------------------------*/
+    .block_in_line_wwfy {
+        margin-bottom: 10px;
+    }
+}
