@@ -1,7 +1,4 @@
-@import "_variables.scss";
-@import "_parshels.scss";
-
-/*------------------------ ABOUT US -------------------------------------------*/
+/*------------------------ ABOUT US ----------------------------------------------*/
 .about_us {
     min-height: 390px;
     padding: 0 30px;
@@ -70,12 +67,12 @@
     height: 30px;
     margin-top: 108px;
     border: none;
-    background: $backgraund;
+    background: #A9BFE4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
     transition: 0.1s;
     
-    color: $wi_text;
+    color: #FFFFFF;
     font-family: "Lora";
     font-weight: 400;
     font-size: 14px;

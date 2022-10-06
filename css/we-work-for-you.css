@@ -1,7 +1,4 @@
-@import "_variables.scss";
-@import "_parshels.scss";
-
-/*------------------------ WE WORK FOR YOU -----------------------------------*/
+/*------------------------ WE WORK FOR YOU --------------------------------------------*/
 .section_we_work_for_you {
     min-height: 156px;
     padding: 0 35px;
@@ -24,7 +21,7 @@
     display: flex;
     align-items: center;
 
-    color: $li_bl_text;
+    color: #989EC3;
     font-family: "Lora";
     font-weight: 400;
     font-size: 16px;

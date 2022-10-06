@@ -1,7 +1,5 @@
-@import "_variables.scss";
-@import "_parshels.scss";
 
-/*------------------------ DELIIVERY AND PAY ---------------------------------*/
+/*------------------------ DELIIVERY AND PAY --------------------------------------------*/
 .delivery_and_pay {
     width: 100%;
     min-height: 470px;
@@ -69,7 +67,7 @@
     text-align: center;
     backdrop-filter: blur(4px);
 
-    color: $backgraund;
+    color: #A9BFE4;
     font-family: "Lora";
     font-weight: 400;
     font-size: 40px;
