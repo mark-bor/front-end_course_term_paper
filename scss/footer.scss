@@ -1,0 +1,205 @@
+@import "_variables.scss";
+@import "_parshels.scss";
+
+/*------------------------ FOOTER --------------------------------------------*/
+.footer {
+    width: 100%;
+    padding: 0 20px;
+    min-height: 185px;
+    background: $backgraund;
+  }
+  
+  .section_footer {
+    height: 100%;
+    margin: 0 auto;
+    padding: 6px 0 0 0;
+  }
+  
+  .section_footer > img {
+    display: block;
+    margin: 0 auto 19px auto;
+  }
+  
+  .nav_in_footer {
+    width: 100%;
+    margin: 0 0 13px 0;
+    padding: 0;
+  
+    display: inline-flex;
+    justify-content: space-around;
+  }
+  
+  .contacts,
+  .information,
+  .catalog_in_footer {
+    display: inline-block;
+    width: 140px;
+    height: 85px;
+  }
+  
+  .contacts > h2,
+  .information > h2,
+  .catalog_in_footer > h2 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    
+    color: $wi_text;
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .contacts > ul,
+  .information > ul,
+  .catalog_in_footer > ul {
+    padding: 0;
+    margin: 0;
+    
+    color: $wi_text;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+  }
+  
+  li > a {
+    text-decoration: none;
+    color: $wi_text;
+  }
+  
+  .follow_contacts {
+    display: inline-block;
+    width: 236px;
+    min-height: 93px;
+    text-align: center;
+  }
+  
+  .form_follow {
+    width: 236px;
+    height: 26px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    padding-left: 12px;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  
+  .form_follow > input {
+    width: 130px;
+    height: 100%;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 13px;
+    color: #ACACAC;
+  }
+  
+  .form_follow > button {
+    background: #FFC2C7;
+    border-radius: 50px;
+    width: 89px;
+    height: 100%;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #FFFDFD;
+  }
+  
+  .contacts_in_f_c {
+    width: 95px;
+    height: 25.87px;
+    margin: 13px auto 17px auto;
+    padding: 0;
+  
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contacts_in_f_ > li {
+    display: block;
+    width: 20px;
+    height: 100%;
+  }
+  
+  .contacts_in_f_c > li > img[src="images/inst.png"],
+  .contacts_in_f_c > li > img[src="images/fb.png"] {
+    width: 100%;
+    height: 22.86px;
+  }
+  
+  .contacts_in_f_c > li > img[src="images/viber.png"] {
+    height: 100%;
+  }
+  
+  .follow_contacts > a {
+    display: inline-block;
+    width: 100%;
+    text-align: start;
+    top: 0;
+    opacity: 0.3;
+    
+    color: $wi_text;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+  }
+  
+  .div_footer_mob {
+    display: none;
+    width: 330px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 17px;
+  }
+  
+  .div_footer_mob > ul {
+    width: 330px;
+    height: 85px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .div_footer_mob > a {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+  
+    color: $wi_text;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 14px;
+  }
+  
+  .div_footer_mob > img {
+    display: block;
+    width: 106.7px;
+    height: 43px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  @media screen and (max-width: 480px) {
+  
+    /*------------------------ FOOTER --------------------------------------------*/
+    .section_footer {
+      display: none;
+    }
+    .div_footer_mob {
+      display: block;
+    }
+    .contacts,
+    .information,
+    .catalog_in_footer {
+      width: 90px;
+    }
+  }
+  
+  /*# sourceMappingURL=styles.css.map */
+  
